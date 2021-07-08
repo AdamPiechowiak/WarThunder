@@ -1,0 +1,321 @@
+body
+{
+	margin: 0px;
+	background-color: #2f3336;
+	color: #efefef;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+}
+
+h1.logo
+{
+	font-size: 44px;
+	font-weight: 700;
+	color: #ddd;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+#topnav
+{
+	background-color: #1c74b2;
+	text-align: center;
+}
+
+.menu
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 10px;
+	font-size: 18px;
+	min-height: 38px;
+	line-height: 200%;
+}
+
+.menu > li
+{
+	display: inline-block;
+	border-right: 1px dashed #0a2e42;
+}
+
+.menu > li:first-child
+{
+	border-left: 1px dashed #0a2e42;
+}
+
+.menu a
+{
+	color: #fff;
+	text-decoration: none;
+	padding: 18px;
+}
+
+
+.menu a:hover
+{
+	color: #0a2e42;
+}
+
+.box
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	text-align: center;
+	padding: 0px;
+}
+
+.zmientryb
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: #494d50;
+	width: 176px;
+}
+
+.trybprzycisk
+{
+	float: left;
+	background-color: #191d21;
+	margin: 5px;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #393d30;
+	cursor: pointer;
+}
+
+.zaznaczony
+{
+	background-color: #292d31;
+	color: #191d10;
+}
+
+.mapy
+{
+}
+
+.blokujscroll
+{
+	overflow: hidden;
+}
+
+.tlo
+{
+	background-color: #303030;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	opacity: 0.9;
+}
+
+.wyswietlz
+{
+	left: 50%;
+	z-index: 3;
+	top: 80px;
+	position: fixed;
+}
+
+.zdjecia
+{
+	width: 600px;
+	position: relative;
+	left: -50%;
+	float: left;
+}
+
+.button
+{
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: #1c74b2;
+	color: #efefef;
+	padding: 10px;
+	position: absolute;
+	left: 310px;
+}
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.namape
+{
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.namape:hover
+{
+	opacity: 1;
+}
+
+h1
+{
+	font-size: 44px;
+	font-weight: 400;
+	color: #39a5f1;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.tryby
+{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.tryby img
+{
+	margin: 0px;
+	padding: 0px;
+	width: 300px;
+}
+
+.tryby a
+{
+	opacity: 0.8;
+}
+
+.tryby a:hover
+{
+	opacity: 1;
+}
+
+.mapao
+{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.mapao img
+{
+	margin: 0px;
+	padding: 0px;
+	width: 400px;
+}
+
+.mapao a
+{
+	opacity: 0.8;
+}
+
+.mapao a:hover
+{
+	opacity: 1;
+}
+
+.mapa
+{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.mapa img
+{
+	margin: 0px;
+	padding: 0px;
+	width: 250px;
+}
+
+.mapa a
+{
+	opacity: 0.8;
+}
+
+.mapa a:hover
+{
+	opacity: 1;
+}
+
+figure
+{
+	margin: 15px;
+	padding: 0px;
+}
+
+figcaption
+{
+	margin-top: 8px;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+
+.head
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	text-align: center;
+	padding: 0px;
+}
+
+.mapylinki
+{
+	background-color: #191d21;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	text-align: center;
+	padding: 20px;
+}
+
+.mapylinki p
+{
+	padding: 20px;
+	font-size: 20px;
+}
+
+.mapyobrazy
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	text-align: center;
+	padding: 10px;
+}
+
+.mapyobrazy p
+{
+	padding: 10px;
+	font-size: 20px;
+}
+
+h2
+{
+	font-size: 20px;
+	font-weight: 400;
+	color: #39a5f1;
+}
+
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;
+}
+
+.stopka
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;
+	background-color: #191d21;
+}

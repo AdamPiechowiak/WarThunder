@@ -1,0 +1,243 @@
+body
+{
+	margin: 0px;
+	background-color: #2f3336;
+	color: #efefef;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+}
+
+h1.logo
+{
+	font-size: 44px;
+	font-weight: 700;
+	color: #ddd;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+#topnav
+{
+	background-color: #1c74b2;
+	text-align: center;
+}
+
+.menu
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 10px;
+	font-size: 18px;
+	min-height: 38px;
+	line-height: 200%;
+}
+
+.menu > li
+{
+	display: inline-block;
+	border-right: 1px dashed #0a2e42;
+}
+
+.menu > li:first-child
+{
+	border-left: 1px dashed #0a2e42;
+}
+
+.menu a
+{
+	color: #fff;
+	text-decoration: none;
+	padding: 18px;
+}
+
+.menu a:hover
+{
+	color: #0a2e42;
+}
+
+.box
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	text-align: center;
+	padding: 0px;
+}
+
+.lewy
+{
+	text-align: left;
+	float: left;
+	width: 600px;
+	height: 300px;
+	margin-top: 20px;
+}
+
+.prawy
+{
+	float: left;
+	width: 400px;
+	height: 300px;
+	margin-top: 20px;
+}
+
+.tryby
+{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.tryby img
+{
+	margin: 0px;
+	padding: 0px;
+	width: 300px;
+}
+
+.tryby a
+{
+	opacity: 0.8;
+}
+
+.tryby a:hover
+{
+	opacity: 1;
+}
+
+#dywizion
+{
+	background-color: #191d21;
+}
+
+.kontakt
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+.kontakt p
+{
+	margin-bottom: 50px;
+}
+
+.bluebutton
+{
+	background-color: #1c74b2;
+	padding: 15px;
+	color: #efefef;
+	font-size: 19px;
+	text-decoration: none;
+	border-radius: 5px;
+	min-width: 300px;
+}
+
+.bluebutton:hover
+{
+	background-color: #196499;
+}
+
+
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;
+}
+
+
+.mapy
+{
+}
+
+
+.mapa
+{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.mapa img
+{
+	margin: 0px;
+	padding: 0px;
+	width: 250px;
+}
+
+.mapa a
+{
+	opacity: 0.8;
+}
+
+.mapa a:hover
+{
+	opacity: 1;
+}
+
+figure
+{
+	margin: 15px;
+	padding: 0px;
+}
+
+figcaption
+{
+	margin-top: 8px;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+
+.stopka
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;
+	background-color: #191d21;
+}
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+
+h1
+{
+	font-size: 44px;
+	font-weight: 400;
+	color: #39a5f1;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+.head
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	text-align: center;
+	padding: 0px;
+}
+
+
+h2
+{
+	font-size: 20px;
+	font-weight: 400;
+	color: #39a5f1;
+	text-align: center;
+}
